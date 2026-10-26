@@ -376,9 +376,12 @@ This project successfully designed, implemented, and validated an academic proto
 * Switch Delay Cost: $1.00$
 
 ### Appendix D: GitHub Repository Instructions
-To publish this verified codebase to GitHub:
-```bash
-git remote add origin https://github.com/<your-username>/intelligent-traffic-signal-mdp.git
-git branch -M main
-git push -u origin main
-```
+* **Verified Repository URL:** [https://github.com/iamssakthi/Intelligent-Traffic-Signal-Optimization-Using-a-Finite-Markov-Decision-Process](https://github.com/iamssakthi/Intelligent-Traffic-Signal-Optimization-Using-a-Finite-Markov-Decision-Process)
+* **Clone Repository:**
+  ```bash
+  git clone https://github.com/iamssakthi/Intelligent-Traffic-Signal-Optimization-Using-a-Finite-Markov-Decision-Process.git
+  ```
+* **Push Updates:**
+  ```bash
+  git push -u origin main
+  ```

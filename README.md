@@ -159,26 +159,17 @@ Pre-compiled, publication-ready academic reports are located in `docs/`:
 
 ---
 
-## 🛠️ GitHub Publication Instructions
+## 🔗 Repository Information
 
-To publish this repository to GitHub:
-```bash
-# 1. Initialize git (if not already done)
-git init
-git branch -M main
-
-# 2. Add remote URL (replace with your personal GitHub repo URL)
-git remote add origin https://github.com/<your-username>/intelligent-traffic-signal-mdp.git
-
-# 3. Stage and commit
-git add .
-git commit -m "feat: complete Finite MDP traffic signal optimization project with reports and screenshots"
-
-# 4. Push to main
-git push -u origin main
-```
-
-*(Note: Repository URL will reflect your verified remote upon publication).*
+* **GitHub Repository URL:** [https://github.com/iamssakthi/Intelligent-Traffic-Signal-Optimization-Using-a-Finite-Markov-Decision-Process](https://github.com/iamssakthi/Intelligent-Traffic-Signal-Optimization-Using-a-Finite-Markov-Decision-Process)
+* **Clone Command:**
+  ```bash
+  git clone https://github.com/iamssakthi/Intelligent-Traffic-Signal-Optimization-Using-a-Finite-Markov-Decision-Process.git
+  ```
+* **Push Command:**
+  ```bash
+  git push -u origin main
+  ```
 
 ---
 

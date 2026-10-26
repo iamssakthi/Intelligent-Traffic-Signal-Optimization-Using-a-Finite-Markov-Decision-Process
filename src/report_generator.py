@@ -205,8 +205,8 @@ def generate_docx_report(benchmark_data: dict, output_path: str = "docs/report.d
     add_chapter("APPENDICES")
     add_section("Appendix A: Execution Instructions")
     add_p("1. Install requirements: pip install -r requirements.txt\n2. Run tests: pytest tests/ -v\n3. Launch Streamlit: streamlit run app.py")
-    add_section("Appendix B: GitHub Instructions")
-    add_p("Publish to GitHub via: git remote add origin <url>; git branch -M main; git push -u origin main")
+    add_section("Appendix B: Verified GitHub Repository")
+    add_p("Repository URL: https://github.com/iamssakthi/Intelligent-Traffic-Signal-Optimization-Using-a-Finite-Markov-Decision-Process\nClone command: git clone https://github.com/iamssakthi/Intelligent-Traffic-Signal-Optimization-Using-a-Finite-Markov-Decision-Process.git\nPush command: git push -u origin main")
 
     doc.save(output_path)
     print(f"Generated DOCX report at {output_path}")
@@ -402,7 +402,8 @@ def generate_pdf_report(benchmark_data: dict, output_path: str = "docs/report.pd
     # APPENDICES
     story.append(Paragraph("APPENDICES", h1_style))
     story.append(Paragraph("<b>Execution Instructions:</b> <code>pip install -r requirements.txt</code> &rarr; <code>pytest tests/ -v</code> &rarr; <code>streamlit run app.py</code>.<br/>"
-                           "<b>GitHub Setup:</b> <code>git remote add origin &lt;url&gt;</code> &rarr; <code>git push -u origin main</code>.", body_style))
+                           "<b>Verified GitHub Repository:</b> <code>https://github.com/iamssakthi/Intelligent-Traffic-Signal-Optimization-Using-a-Finite-Markov-Decision-Process</code><br/>"
+                           "<b>Clone Command:</b> <code>git clone https://github.com/iamssakthi/Intelligent-Traffic-Signal-Optimization-Using-a-Finite-Markov-Decision-Process.git</code>", body_style))
 
     doc.build(story)
     print(f"Generated PDF report at {output_path}")

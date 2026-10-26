@@ -801,12 +801,13 @@ elif page == "7. Report & Deliverables":
 
     st.markdown('<div class="section-header">Git & Version Control Status</div>', unsafe_allow_html=True)
     st.markdown("""
-    * **Local Repository Status:** Git repository initialized and fully structured.
-    * **Publishing Instructions:** To host on GitHub:
+    * **GitHub Repository:** [iamssakthi/Intelligent-Traffic-Signal-Optimization-Using-a-Finite-Markov-Decision-Process](https://github.com/iamssakthi/Intelligent-Traffic-Signal-Optimization-Using-a-Finite-Markov-Decision-Process)
+    * **Clone Repository:**
       ```bash
-      git remote add origin https://github.com/<your-username>/intelligent-traffic-signal-mdp.git
-      git branch -M main
+      git clone https://github.com/iamssakthi/Intelligent-Traffic-Signal-Optimization-Using-a-Finite-Markov-Decision-Process.git
+      ```
+    * **Push Updates:**
+      ```bash
       git push -u origin main
       ```
-    * **Repository URL:** *(Pending user GitHub authorization / publication)*
     """)
